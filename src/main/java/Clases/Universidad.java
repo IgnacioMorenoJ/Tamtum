@@ -18,7 +18,7 @@ private int nit;
         
     public Universidad() {
     }
-
+ //universidad prueba
     public String getNombreUniversidad() {
         return nombreUniversidad;
     }
