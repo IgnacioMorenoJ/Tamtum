@@ -12,19 +12,12 @@ public class Conexion {
     Connection con;
 
     public Conexion() {
-
         try {
-
             Class.forName("com.mysql.cj.jdbc.Driver");
-
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/tamtumbd", "root", " ");
-
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/tamtumbd", "root", "");
         } catch (Exception e) {
-
-            System.err.println("error" + e);
-
+            System.err.println("error" + e.getMessage());
         }
-
     }
 
     public static void main(String[] args) {

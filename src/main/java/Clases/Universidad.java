@@ -34,8 +34,6 @@ private int nit;
     public void setNit(int nit) {
         this.nit = nit;
     }
-
-    
-    
+       
     
 }
