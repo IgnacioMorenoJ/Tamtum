@@ -8,6 +8,7 @@ package Clases;
 /**
  *
  * @author usuario
+comentario de prueba
  */
 public class Usuario {
 
